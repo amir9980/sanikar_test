@@ -8,6 +8,7 @@ After configuring the `.env` file, run the following commands:
 composer install
 npm install
 npm run dev
+php artisan key:generate
 php artisan serve
 php artisan migrate
 php artisan db:seed
