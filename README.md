@@ -8,10 +8,11 @@ composer install
 npm install
 npm run dev
 php artisan key:generate
-php artisan serve
 php artisan migrate
+php artisan test
 php artisan db:seed
 php artisan optimize
+php artisan serve
 ```
 
 اکنون میتوانید آدرس `localhost:8000` را در مرورگر باز کنید.
