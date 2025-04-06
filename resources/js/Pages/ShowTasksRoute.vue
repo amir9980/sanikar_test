@@ -231,7 +231,7 @@ export default {
                 title: updatingTask.title,
                 description: updatingTask.description,
                 completed: updatingTask.completed,
-                start_date: moment(updatingTask.end_date, 'jYYYY-jMM-jDD').format('YYYY-MM-DD'),
+                start_date: moment(updatingTask.start_date, 'jYYYY-jMM-jDD').format('YYYY-MM-DD'),
                 end_date: moment(updatingTask.end_date, 'jYYYY-jMM-jDD').format('YYYY-MM-DD')
             }, {
                 headers: {
