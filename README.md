@@ -14,6 +14,8 @@ php artisan db:seed
 php artisan optimize
 ```
 
+You can now visit localhost:8000
+
 ## Login Credentials:
 
 After running the seeders, you can log in with the following credentials:
