@@ -1,6 +1,8 @@
 # Laravel Project Setup
 
-برای راه‌اندازی پروژه،بعد از پیکربندی دیتابیس در فایل .env، مراحل زیر را به ترتیب اجرا کنید:
+## Configuration
+
+After configuring the `.env` file, run the following commands:
 
 ```bash
 composer install
@@ -8,5 +10,16 @@ npm install
 npm run dev
 php artisan serve
 php artisan migrate
-php artisan test
 php artisan db:seed
+php artisan optimize
+```
+
+Login Credentials
+
+After running the seeders, you can log in with the following credentials:
+
+    Username: admin
+    Password: 12345678
+
+    Username: user
+    Password: 12345678
