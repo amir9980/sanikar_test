@@ -14,7 +14,7 @@ php artisan db:seed
 php artisan optimize
 ```
 
-Login Credentials
+## Login Credentials:
 
 After running the seeders, you can log in with the following credentials:
 
